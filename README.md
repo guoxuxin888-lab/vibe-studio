@@ -41,7 +41,7 @@ flowchart LR
 
 用 Claude Code、Codex、Kimi Code、WorkBuddy、TRAE 这类**能执行终端命令**的 Agent，新开一个对话，发：
 
-> 请阅读 https://raw.githubusercontent.com/guoxuxin888-lab/vibe-studio/main/AI-INSTALL.md ，照着它帮我安装 Vibe Studio，并把它的两个 Skill 装进你自己。我在中国大陆。（不在国内就删掉最后一句）
+> 请阅读 https://raw.githubusercontent.com/guoxuxin888-lab/vibe-studio/main/AI-INSTALL.md ，照着它帮我安装 Vibe Studio，并把它的两个 Skill 装进你自己。
 
 它会自己做完这些：
 

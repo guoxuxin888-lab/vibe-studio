@@ -58,9 +58,9 @@ for (const film of fs.readdirSync(path.join(root, 'films'), { withFileTypes: tru
 }
 ok(Object.keys(VOICES).length > 0, 'no voices');
 
-// Nothing private may be tracked. The only videos allowed are the original style-gallery clips in docs/gallery/.
+// Nothing private may be tracked. The only videos allowed are the original style-gallery clips in docs/gallery/ and the README samples in docs/showcase/.
 const tracked = spawnSync('git', ['ls-files'], { cwd: root, encoding: 'utf8' }).stdout.split('\n');
-for (const f of tracked) ok(!/^references\/private\/|studio\.local\.json|profile\.local\.md/.test(f) && !(/\.(mp4|mov)$/.test(f) && !/^docs\/gallery\//.test(f)), `must not be tracked: ${f}`);
+for (const f of tracked) ok(!/^references\/private\/|studio\.local\.json|profile\.local\.md/.test(f) && !(/\.(mp4|mov)$/.test(f) && !/^docs\/(gallery|showcase)\//.test(f)), `must not be tracked: ${f}`);
 
 warns.forEach(w => console.log('warn: ' + w));
 if (fails.length) { fails.forEach(f => console.log('FAIL: ' + f)); process.exit(1); }

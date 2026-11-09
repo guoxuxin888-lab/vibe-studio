@@ -9,3 +9,5 @@ studio.local.json
 profile.local.md
 content/
 .export-manifest.json
+.npmrc
+.trae/

@@ -25,9 +25,10 @@
 
 - [ ] 在一台干净的 Windows 机器上，按 README 从头跑通。
 - [ ] 分别用 Claude Code、Kimi Code、WorkBuddy、TRAE 从内容包做出样片，记录卡在哪里。
-- [ ] `npm run setup`：检查 Node、ffmpeg、中文字体、浏览器，给出能照抄的中文提示。
+- [x] 一键安装：`setup/` 里的脚本检查并安装 Node、ffmpeg、浏览器，跑体检和试渲染，再把 Skill 装进 Agent；`AI-INSTALL.md` 让 Agent 读链接自己装（2026-11-09，Windows 已在全新副本实测；winget 安装分支和 macOS/Linux 脚本未实机验证）。
 
 ## 建议做
 
 - [ ] 扩充动效库，逐个按拍重写，不要搬带品牌的旧模板。
-- [ ] 准备 README 的演示视频和英文说明。
+- [x] README 的演示动图和案例（2026-11-09）。
+- [ ] 英文说明。

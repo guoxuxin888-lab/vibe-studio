@@ -13,7 +13,9 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const fails = [], warns = [];
 const ok = (c, m) => { if (!c) fails.push(m); };
 const J = f => JSON.parse(fs.readFileSync(path.join(root, f), 'utf8'));
-for (const t of ['ffmpeg', 'ffprobe']) if (spawnSync(t, ['-version']).status !== 0) warns.push(`${t} not found: audio normalising and reference analysis need it`);
+const nodeMajor = Number(process.versions.node.split('.')[0]);
+ok(nodeMajor >= 20, `Node ${process.versions.node} is too old: need 20 or newer (需要 Node 20 以上：运行 setup/install-windows.cmd 或 bash setup/install.sh，或见 README“安装”)`);
+for (const t of ['ffmpeg', 'ffprobe']) if (spawnSync(t, ['-version']).status !== 0) warns.push(`${t} not found: audio normalising and reference analysis need it (没找到 ${t}：运行 setup 里的一键安装脚本，或见 README“安装”)`);
 
 // Every style complete, every mood composes, every catalogued effect exists.
 const need = ['id', 'name', 'fits', 'palette', 'texture', 'figure', 'font', 'light', 'motion', 'music', 'imagePrompt', 'avoid'];

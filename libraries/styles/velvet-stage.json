@@ -1,0 +1,21 @@
+{
+  "id": "velvet-stage",
+  "name": "丝绒剧场",
+  "fits": "人的处境、心理、选择。舞台和观众席的关系本身就是比喻。",
+  "palette": {
+    "bg": "#0c0507",
+    "bg2": "#2b0a10",
+    "ink": "#f2e6d6",
+    "muted": "#a58a7c",
+    "accent": "#c8283c",
+    "accent2": "#f0b45a"
+  },
+  "texture": "grain",
+  "figure": "无脸剪影，只从背后看",
+  "font": "serif",
+  "light": "舞台光来自上方，亮度跟随音乐张力",
+  "motion": "镜头极慢，落拍时才快速推进",
+  "music": "felt-night",
+  "imagePrompt": "dark theatre interior seen from behind the audience, velvet red curtain, faceless silhouettes, warm stage light, painterly, no text",
+  "avoid": "不要出现五官和观众脸部"
+}

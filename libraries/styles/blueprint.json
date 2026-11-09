@@ -1,0 +1,21 @@
+{
+  "id": "blueprint",
+  "name": "蓝图线稿",
+  "fits": "结构、系统、规律、“写好的剧本”。",
+  "palette": {
+    "bg": "#0e2233",
+    "bg2": "#173650",
+    "ink": "#dbe9f4",
+    "muted": "#5e88a8",
+    "accent": "#f2b84b",
+    "accent2": "#7fc4e8"
+  },
+  "texture": "grid",
+  "figure": "等距线稿，人很小",
+  "font": "sans",
+  "light": "无光影，只有线",
+  "motion": "线条逐根生长，尺寸标注随内容变化",
+  "music": "glass-pulse",
+  "imagePrompt": "architectural blueprint, thin white lines on deep blue, isometric, measurement marks, no text",
+  "avoid": "不要填色块，不要写实纹理"
+}

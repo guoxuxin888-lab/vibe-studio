@@ -1,0 +1,21 @@
+{
+  "id": "paper-collage",
+  "name": "纸张拼贴",
+  "fits": "日常生活、幽默、财经常识。亲切，不像说教。",
+  "palette": {
+    "bg": "#f4ead8",
+    "bg2": "#fbf5e9",
+    "ink": "#26221d",
+    "muted": "#9a8f7e",
+    "accent": "#e4572e",
+    "accent2": "#2e86ab"
+  },
+  "texture": "paper",
+  "figure": "剪纸人物，带纸边和投影",
+  "font": "sans",
+  "light": "顶光，纸片有短投影",
+  "motion": "纸片弹入、翻面、撕开，定格动画感（12fps）",
+  "music": "glass-pulse",
+  "imagePrompt": "cut paper collage, flat coloured paper shapes with soft drop shadows, playful, no text",
+  "avoid": "不要发光和粒子"
+}

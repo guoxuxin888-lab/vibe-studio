@@ -1,0 +1,21 @@
+{
+  "id": "shadow-puppet",
+  "name": "皮影古意",
+  "fits": "山海经、民间传说、古代战争。",
+  "palette": {
+    "bg": "#e6dcc4",
+    "bg2": "#f2ebd9",
+    "ink": "#17130f",
+    "muted": "#7d7360",
+    "accent": "#a61e1e",
+    "accent2": "#c9963c"
+  },
+  "texture": "paper",
+  "figure": "镂空皮影，关节可动",
+  "font": "serif",
+  "light": "幕布背光，边缘微亮",
+  "motion": "关节转动，平移入场，不做缩放",
+  "music": "stone-choir",
+  "imagePrompt": "chinese shadow puppet theatre, black cutout figures with ornate perforation against backlit parchment, no text",
+  "avoid": "不要三维感"
+}

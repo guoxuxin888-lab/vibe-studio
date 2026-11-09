@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibe 视频制作"
+  short_description: "根据内容包，在 vibe-studio 里按参考或原创定画风、配音乐，按节拍做画面、音效、样片和成片"
+  default_prompt: "Use $vibe-video-producer to turn a content package into a Vibe knowledge video in the vibe-studio project: a treatment, a score or a beat grid for existing music, a short sample, and the final film."

@@ -1,0 +1,21 @@
+{
+  "id": "cinnabar-line",
+  "name": "朱砂线描",
+  "fits": "帝王、权力、史诗。",
+  "palette": {
+    "bg": "#120605",
+    "bg2": "#2a0c07",
+    "ink": "#f4cfa8",
+    "muted": "#8c5b3f",
+    "accent": "#e0431f",
+    "accent2": "#ffb65c"
+  },
+  "texture": "grain",
+  "figure": "金红线描人像，线条像烧红的铁丝",
+  "font": "serif",
+  "light": "火光从下方来",
+  "motion": "大字冲击环，线条燃烧着长出来",
+  "music": "stone-choir",
+  "imagePrompt": "cinnabar red and molten gold line drawing of an ancient ruler on near-black ground, no text",
+  "avoid": "不要用在轻松题材"
+}

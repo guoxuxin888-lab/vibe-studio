@@ -1,0 +1,21 @@
+{
+  "id": "quiet-night",
+  "name": "暗场发光",
+  "fits": "孤独、内心、心理学小故事。样本里很常见，容易撞款，要有独特的物。",
+  "palette": {
+    "bg": "#070b12",
+    "bg2": "#121b2b",
+    "ink": "#eef2f7",
+    "muted": "#6d7a8c",
+    "accent": "#ff5a5f",
+    "accent2": "#7fd4ff"
+  },
+  "texture": "grain",
+  "figure": "发光线条小人",
+  "font": "serif",
+  "light": "物体自发光，其他全暗",
+  "motion": "光点移动带拖尾，慢推镜",
+  "music": "felt-night",
+  "imagePrompt": "minimal dark scene, one glowing line figure on a thin horizon, no text",
+  "avoid": "不要默认用金色；不要同时出现多个亮点"
+}

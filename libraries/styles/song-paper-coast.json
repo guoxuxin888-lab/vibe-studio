@@ -1,0 +1,22 @@
+{
+  "id": "song-paper-coast",
+  "name": "宋画纸本·青绿海岸",
+  "fits": "古代人物生活故事、日常食物与乐观心境；人物和道具完成动作，字幕只承接旁白。",
+  "palette": {
+    "bg": "#eee1c3",
+    "bg2": "#fff4d9",
+    "ink": "#253f3b",
+    "muted": "#8c8168",
+    "accent": "#b64932",
+    "accent2": "#387b79"
+  },
+  "texture": "paper",
+  "figure": "墨色宋帽、圆润文士形体、鼠尾草色长袍；宽袖和手掌共用肩轴，道具在掌心局部坐标中。",
+  "font": "serif",
+  "light": "明亮纸本、青绿海岸、朱砂炉火；不以大片黑底替代场景。",
+  "motion": "分层景深推进；炊烟、浪线随拍轻动；叙事动作由真实配音触发，落点参考音乐瞬态。",
+  "music": "用户指定音乐；人声优先，旁白段音乐约低12 LU，先试听样片。",
+  "imagePrompt": "Song dynasty mineral pigment blue-green Hainan coast, warm rice paper, painterly animation background, cinematic layered hills, no text, no people",
+  "avoid": "不要用文字卡替代煮蚝等动作；不画生食；不做断开的手和袖；不是历史实景复原。",
+  "status": "sample-pending-user-review"
+}

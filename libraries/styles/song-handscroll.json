@@ -1,0 +1,14 @@
+{
+  "id": "song-handscroll",
+  "name": "宋代手卷·白描淡彩",
+  "fits": "古人的一生、一路迁徙、到过的地方。整片是一卷长卷，展开就是往前走，倒卷就是回忆。",
+  "palette": {"bg": "#e9dcbf", "bg2": "#f4ead3", "ink": "#2b2620", "muted": "#8d7f66", "accent": "#b2402c", "accent2": "#3d6b86"},
+  "texture": "paper",
+  "figure": "白描墨线无脸小人；主角戴高筒东坡巾、朱砂系带；帮他的人一律石青衣；远处的人只用淡墨",
+  "font": "serif",
+  "light": "绢本暖黄，没有光源；靠淡彩多少和墨色浓淡分轻重，夜渡海时整卷压暗",
+  "motion": "手卷展开、倒卷代替切镜；物件墨线逐笔画出再上色；人物只做大姿势",
+  "music": "wry-delight",
+  "imagePrompt": "Song dynasty handscroll, baimiao ink outline with light mineral blue-green wash, aged silk texture, no text",
+  "avoid": "不要满屏青绿大景，不要渐变发光，不画生食，不画人物五官；手卷上的字只用原文"
+}

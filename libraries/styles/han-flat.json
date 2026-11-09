@@ -1,0 +1,14 @@
+{
+  "id": "han-flat",
+  "name": "汉风扁平信息图",
+  "fits": "汉末三国的人物故事与制度冷知识：扁平色块的城门、街市、店铺，加上地图、数字、图解，故事和道理一起讲清楚。",
+  "palette": {"bg": "#e9d8b4", "bg2": "#f5ead2", "ink": "#2b2420", "muted": "#8a7660", "accent": "#a8321f", "accent2": "#3d6b86"},
+  "texture": "paper",
+  "figure": "扁平无描边的小人：圆头、点眼，汉代衣冠（帻、深衣、腰带）；主角画大，张飞更高更壮、圆眼浓须",
+  "font": "serif",
+  "light": "傍晚暖光，大块平涂，远景偏淡；重要时刻压暗四周、一束光打在主角身上",
+  "motion": "镜头平移和推近代替切镜；地图、数字、条形图在讲到时长出来；人物只做大姿势，落点在拍上",
+  "music": "按讲述情绪分段：叹气低、喝问重、自述暖、出钱转亮、摆摊比方轻快、结尾留悬念",
+  "imagePrompt": "flat vector illustration, Han dynasty chinese town gate and market at dusk, warm ochre palette, minimal shapes, no outlines, no text",
+  "avoid": "不要描边卡通、不要唐代建筑当汉代；地图只作示意并标明；人物不画成Q版大头"
+}

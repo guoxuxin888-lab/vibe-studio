@@ -1,0 +1,11 @@
+node_modules/
+.tmp/
+out/
+public/films/
+*.wav
+# Private work: reference videos and personal settings never go into the public repo.
+references/private/
+studio.local.json
+profile.local.md
+content/
+.export-manifest.json

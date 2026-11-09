@@ -1,0 +1,21 @@
+{
+  "id": "vase-figure",
+  "name": "陶罐红绘",
+  "fits": "古希腊、神话、西方哲学。风格本身就是时代。",
+  "palette": {
+    "bg": "#1a0f0a",
+    "bg2": "#2b1a10",
+    "ink": "#e9a15f",
+    "muted": "#8b5a33",
+    "accent": "#d97a35",
+    "accent2": "#f2c58a"
+  },
+  "texture": "hatch",
+  "figure": "侧面人形，几何化，配回纹边框",
+  "font": "serif",
+  "light": "平光，不做真实光影",
+  "motion": "人物摆拍式定格，一拍换一个姿势",
+  "music": "stone-choir",
+  "imagePrompt": "ancient greek red-figure pottery, orange figures on black, meander border, flat, no text",
+  "avoid": "不要透视和软阴影"
+}

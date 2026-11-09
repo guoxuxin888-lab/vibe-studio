@@ -1,0 +1,14 @@
+{
+  "id": "geo-flat",
+  "name": "彩色几何平涂图解叙事",
+  "fits": "历史事件和人物故事的图解讲述（画风库第 15 类 V86）：无五官的几何小人、渐变天空和层叠远山，大段叙述字放在左上，关键词上色加下划线，配地图、数字和金框信息卡。",
+  "palette": {"bg": "#e9c99a", "bg2": "#8fb0d6", "ink": "#2a2a38", "muted": "#7d7f96", "accent": "#e8553f", "accent2": "#f2c14e"},
+  "texture": "none",
+  "figure": "无五官的几何小人：白色圆头、深色帽、梯形长袍、细线手脚；靠衣色、帽子、胡子形状和金色引线名牌区分人物",
+  "font": "serif",
+  "light": "大块渐变天空（白天蓝到沙色、黄昏橙到紫），一轮浅色太阳，远山分两三层冷色；重要时刻压暗、给主角一圈光环",
+  "motion": "镜头平移和缓推；字按句逐行出现，关键词上色；人物只做大动作，落点在拍上",
+  "music": "跟讲述情绪走：誓言肃穆、回溯轻快、来人有分量、立誓庄重、聚乡勇热闹、结尾留悬念",
+  "imagePrompt": "flat geometric vector illustration, faceless minimalist figures with round white heads, gradient dusk sky, layered blue hills, pale sun disc, no outlines, no text",
+  "avoid": "不画五官和描边卡通；不要写实或Q版大头；叙述字不要压到人物；地图只作示意并标明"
+}

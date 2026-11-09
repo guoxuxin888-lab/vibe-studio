@@ -1,0 +1,13 @@
+[
+  { "id": "impact", "name": "落地重击", "use": "概念名、最大的转折。一条片 1–2 次", "pitched": "传调的主音，让它成为和声的一部分", "options": { "midi": 38 } },
+  { "id": "riser", "name": "上升气流", "use": "重击前的蓄力，峰值正好落在拍上", "pitched": "否，噪声", "options": { "seconds": 2 } },
+  { "id": "whoosh", "name": "划过", "use": "大转场、镜头快速移动。方向跟画面一致", "pitched": "否，噪声", "options": { "seconds": 0.55 } },
+  { "id": "tick", "name": "轻点", "use": "计数器跳字、逐条出现", "pitched": "传和弦内音", "options": { "midi": 86 } },
+  { "id": "thud", "name": "闷响", "use": "人站起、物落地、座位翻起", "pitched": "传低音声部的音", "options": { "midi": 45 } },
+  { "id": "stamp", "name": "盖章", "use": "判定、结论", "pitched": "传主音或属音", "options": { "midi": 41 } },
+  { "id": "tear", "name": "撕纸", "use": "撕票、撕书、关系断裂", "pitched": "否，噪声", "options": { "seconds": 0.7 } },
+  { "id": "pageTurn", "name": "翻页", "use": "翻书、换章", "pitched": "否，噪声", "options": { "seconds": 0.62 } },
+  { "id": "heartbeat", "name": "心跳", "use": "焦虑、等待。不要和鼓同时出现", "pitched": "固定低音", "options": {} },
+  { "id": "inkDrop", "name": "墨滴", "use": "水墨片的落笔、水滴", "pitched": "传五声音阶内的音", "options": { "midi": 76 } },
+  { "id": "shimmer", "name": "微光", "use": "想通的瞬间、光亮起来", "pitched": "传主音，内部是五度叠置", "options": { "midi": 81 } }
+]

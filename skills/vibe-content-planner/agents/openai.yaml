@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibe 内容策划"
+  short_description: "Vibe 知识选题、故事开头、字幕或口播、事实核查、内容包和复盘"
+  default_prompt: "Use $vibe-content-planner to choose topics, design story openings that lead to a clear knowledge question, write and fact-check subtitle or voiceover scripts, build the content package, and review results for a Vibe knowledge video."

@@ -1,0 +1,21 @@
+{
+  "id": "ink-wash",
+  "name": "水墨留白",
+  "fits": "东方哲学、诗词、时间、命运。留白就是内容。",
+  "palette": {
+    "bg": "#ece6d8",
+    "bg2": "#f7f3e8",
+    "ink": "#1d1c1a",
+    "muted": "#8a857a",
+    "accent": "#a4262c",
+    "accent2": "#3f5a56"
+  },
+  "texture": "wash",
+  "figure": "一笔带过的墨线小人",
+  "font": "serif",
+  "light": "没有光源，靠墨色浓淡",
+  "motion": "墨迹生长、晕开，转场用水漫",
+  "music": "ink-string",
+  "imagePrompt": "traditional chinese ink wash painting, generous empty space, single brush stroke figure, rice paper texture, no text",
+  "avoid": "不要满屏，不要渐变发光"
+}

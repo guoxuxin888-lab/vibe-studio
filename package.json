@@ -1,0 +1,30 @@
+{
+  "name": "vibe-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Music-first studio for short knowledge films: score, picture, motion and sound share one timeline.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "studio": "node tools/remotion.cjs studio --no-open",
+    "still": "node tools/remotion.cjs still",
+    "render": "node tools/remotion.cjs render",
+    "check": "tsc --noEmit",
+    "new": "node tools/new-film.mjs",
+    "music": "node engine/render-film.mjs",
+    "library": "node engine/render-library.mjs",
+    "reference": "node tools/analyze-reference.mjs",
+    "doctor": "node tools/doctor.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.495",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.495"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "shadow-theatre",
+  "name": "皮影戏台·说书",
+  "fits": "说书腔的历史演义：白布后面皮影演原著，布前面说书人讲今天的道理。",
+  "palette": {"bg": "#120c0a", "bg2": "#f0d49a", "ink": "#f3e6c8", "muted": "#8f7a5c", "accent": "#b3261e", "accent2": "#d9a01c"},
+  "texture": "none",
+  "figure": "侧身彩色皮影：半透明染色牛皮、镂空小孔、关节铆钉、一根颈杆；只画侧脸轮廓，不画眼口",
+  "font": "serif",
+  "light": "幕布背光，中间暖黄、四边发暗；灾异和坏事时幕布暗下去，烛光轻微闪",
+  "motion": "皮影只平移、转关节、弯腰，不做缩放和三维；说书人在幕前，现代比方由它到台前演",
+  "music": "按段落换：朝堂压抑用低沉弗里吉亚和暗铺底，偷看用拨弦，现代比方换大调轻快，前线上低鼓",
+  "imagePrompt": "chinese shadow puppet theatre, colored translucent leather puppets with perforation, warm backlit screen, wooden frame, red curtains, no text",
+  "avoid": "不要三维感，不要皮影做缩放；说书人不挡幕布上的人物和字幕；皮影不画眼口"
+}
